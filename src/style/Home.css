@@ -1,0 +1,77 @@
+/* Global Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5; /* Add a subtle background color */
+}
+
+/* Main Section Styles */
+.main {
+  background: #333; /* Dark background color */
+  color: white;
+  padding: 20px;
+  text-align: center; /* Center text */
+}
+
+/* Cards Container Styles */
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 20px;
+  justify-content: space-around; /* Center cards horizontally */
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px; /* More padding for a cleaner look */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slightly larger shadow */
+  width: calc(30% - 20px);
+  background: #fff;
+  transition: transform 0.3s ease-in-out;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.character-image {
+  width: 100%; /* Full width for images */
+  height: auto;
+  border-radius: 8px; /* Rounder corners */
+}
+
+/* Search Input Styles */
+.search {
+  margin: 20px 20px 0 20px;
+  padding: 10px;
+  width: 80%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff; /* White background for better contrast */
+}
+
+/* Additional Styles for Character Details */
+.name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.description {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #666;
+}
+
+
+.banner {
+  background-image: url('public/waldemar-eIOPDU3Fkwk-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
+  color: orangered; /* Text color for better visibility */
+  text-align: center;
+  padding: 100px 20px; /* Adjust padding as needed */
+}
